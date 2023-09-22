@@ -1,13 +1,20 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import url(vendor/normalize.css);
+@import url(vendor/fonts/Inter_Web/inter.css);
+@import url(vendor/fonts/Roboto/roboto.css);
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+@import url(components/Footer/footer.css);
+@import url(components/Header/header.css);
+
+@import url(components/users/users.css);
+@import url(components/users/usersCard/usersCard.css);
+
+@import url(components/userPage/userPage.css);
+@import url(components/userPage/header/userPageHeader.css);
+
+@import url(components/PopupWithForm/popupWithForm.css);
+@import url(components/FieldForm/fieldForm.css);
+@import url(components/Preloader/preloader.css);
+
+@import url(components/NoRoute/noRoute.css);
+
+/* outline: red solid 1px; */
